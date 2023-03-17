@@ -9,26 +9,26 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="210dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/img" />
+        android:src="@drawable/termometro" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/your_name"
+        android:text="@string/write_temperature"
         android:textSize="26sp"
         android:layout_margin="16sp"
         />
     <EditText
-        android:id="@+id/user_name"
+        android:id="@+id/temperature"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/write_here"
+        android:hint="@string/temperature_f"
         android:textSize="26sp"
         android:layout_margin="16sp"
         />
     <TextView
-        android:id="@+id/txt_saludo"
+        android:id="@+id/txt_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
@@ -37,11 +37,11 @@
         android:layout_margin="16sp"
         />
     <Button
-        android:id="@+id/btn_saludar"
+        android:id="@+id/btn_convert"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="16sp"
         android:layout_margin="16sp"
-        android:text="@string/to_greet"
+        android:text="@string/convert_to_c"
         />
 </LinearLayout>
